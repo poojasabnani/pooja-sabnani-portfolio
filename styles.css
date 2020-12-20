@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+:root {
+    --primary-color: #F6AD55;
+    --off-secondary: #E9D8FD;
+    --secondary-color: #805AD5;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0px;
+    font-size: 1rem;
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+
+.margin-md {
+    margin: 2rem;
+}
+
+.container {
+    padding: 0rem 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    display: block;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    display: block;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
+}
+
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+    background-color: var(--secondary-color);
+    border-radius: 1rem;
+}
+
+.main {
+    padding: 2rem;
+    padding-top: 5rem;
+
+}
+
+.main .main-img {
+    max-width: 80%;
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.main .main-heading {
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--secondary-color);
+}
+
+.main .main-heading .heading-inverted {
+    color: var(--primary-color);
+}
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: left;
+
+}
+
+.os {
+    background-color: var(--off-secondary);
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.showcase-list {
+    padding: 2rem;
+}
+
+.showcase-blog {
+    padding-bottom: 6rem;
+}
+
+#connectLink {
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 1rem;
+}
+
+#footer-sign {
+    background-color: var(--off-secondary);
+    font-weight:bold;
+    text-align: center;
+    padding: 0rem;
+    margin: 0rem;
+}
